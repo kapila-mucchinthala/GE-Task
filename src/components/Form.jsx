@@ -69,7 +69,8 @@ export const Form = () => {
     }
   
     try {
-      await axios.post("http://localhost:3990/details", details);
+      // await axios.post("http://localhost:3990/details", details);
+      await axios.post(" http://internal-bu-dna-dra-docstar-alb-1252189529.us-east-1.elb.amazonaws.com/postgres/projects/", details);
 
       // Clear the form input fields
       setFormData({
@@ -139,8 +140,8 @@ export const Form = () => {
 
     try {
       const id = 1;
-      const response = await axios.get(`http://localhost:3990/details/${id}`);
-      console.log("Response:", response.data);
+      const response = await axios.get("http://internal-bu-dna-dra-docstar-alb-1252189529.us-east-1.elb.amazonaws.com/postgres/projects/");
+      console.log("Response:", response);
       const projectDetails = response.data;
       console.log("Project details:", projectDetails);
       // Update the form data with the retrieved details

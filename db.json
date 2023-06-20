@@ -20,69 +20,6 @@
         }
       ],
       "id": 1
-    },
-    {
-      "project_name": "GE",
-      "project_description": "GEDESC",
-      "total_tables": "111",
-      "total_files": "222",
-      "owners": [
-        {
-          "owner_name": "aa",
-          "owner_designation": "xx"
-        },
-        {
-          "owner_name": "bb",
-          "owner_designation": "xx"
-        },
-        {
-          "owner_name": "cc",
-          "owner_designation": "xx"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "project_name": "name",
-      "project_description": "desc",
-      "total_tables": "222",
-      "total_files": "111",
-      "owners": [
-        {
-          "owner_name": "qq",
-          "owner_designation": "qq"
-        },
-        {
-          "owner_name": "qq",
-          "owner_designation": "qq"
-        },
-        {
-          "owner_name": "qq",
-          "owner_designation": "qq"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "project_name": "GE",
-      "project_description": "desc",
-      "total_tables": "11",
-      "total_files": "22",
-      "owners": [
-        {
-          "owner_name": "ww",
-          "owner_designation": "xx"
-        },
-        {
-          "owner_name": "ww",
-          "owner_designation": "ww"
-        },
-        {
-          "owner_name": "ww",
-          "owner_designation": "ww"
-        }
-      ],
-      "id": 4
     }
   ]
 }
